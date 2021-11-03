@@ -1,0 +1,22 @@
+nav{
+    display: inline-flex;
+    margin-left: 50%;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-flex;
+}
+
+.logo{
+    display: inline-flex;
+    margin-right: 50%;
+    position: absolute;
+}
+
+.banner{
+    width: 35%;
+    height: 35%;
+    display: block;
+    margin: auto;
+}
