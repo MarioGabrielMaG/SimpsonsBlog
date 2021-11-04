@@ -1,22 +1,62 @@
-nav{
-    display: inline-flex;
-    margin-left: 50%;
+body{
+    background-color: #99d1ea;
 }
 
-nav ul li{
+nav{
+    float: left;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+footer ul li, nav ul li{
     list-style: none;
     display: inline-flex;
+    font-size: 150%;
+    border-right: solid;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-weight: bold;
+}
+
+footer ul li:hover, nav ul li:hover{
+    background-color: #8073c5;
+    transition-duration: 0.5s;
+}
+
+footer ul{
+    text-align: center;
+    padding-right: 5%;
+}
+
+aside img{
+    width: 250px;
+}
+
+aside{
+    position: absolute;
+    left: 78%;
+    top: 30%;
+    z-index: 0;
+}
+
+footer p{
+    text-align: center;
+    background-color: #5399B8;
 }
 
 .logo{
-    display: inline-flex;
-    margin-right: 50%;
-    position: absolute;
+    float: left;
+    width: 15%;
+    height: 15%;
+    margin-left: 5%;
 }
 
-.banner{
-    width: 35%;
-    height: 35%;
-    display: block;
-    margin: auto;
+.header{
+    background-color: #4EB4E1;
+    position: fixed;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: -1%;
+    margin-left: -1%;
+    z-index: 1;
 }
