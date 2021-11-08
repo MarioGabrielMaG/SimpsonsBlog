@@ -8,6 +8,10 @@ nav{
     margin-top: 3%;
 }
 
+footer{
+    
+}
+
 footer ul li, nav ul li{
     list-style: none;
     display: inline-flex;
