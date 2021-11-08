@@ -1,5 +1,5 @@
 @media screen and (max-width: 360) {
     nav{
-        background-color: blueviolet;
+        background-color: blueviolet !important;
     }
 }

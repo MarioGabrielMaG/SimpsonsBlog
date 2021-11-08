@@ -1,10 +1,6 @@
-aside{
-    position: absolute;
-    left: 78%;
-    top: 30%;
-    z-index: 0;
-}
-
 aside img{
-    width: 250px;
+    float: right;
+    width: 20%;
+    margin-top: 2%;
+    z-index: 0;
 }
