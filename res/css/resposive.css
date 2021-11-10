@@ -1,5 +1,17 @@
-@media screen and (max-width: 360) {
+@media screen and (max-width: 360px) {
+    * p{
+        font-size: 80%;
+    }
+
     nav{
-        background-color: blueviolet !important;
+        display: none;
+    }
+
+    aside{
+        display: none;
+    }
+
+    footer ul{
+        display: none;
     }
 }

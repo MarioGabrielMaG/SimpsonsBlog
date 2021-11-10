@@ -6,9 +6,25 @@ aside img{
 }
 
 .block{
+    display: inline-flex;
+}
+
+.block div{
     border: solid;
     display: inline-flex;
     font-size: 150%;
     box-shadow: 2px 2px black;
-    margin: 2px 2px 4px 2px;
+    margin: 4px 4px 8px 4px;
+}
+
+.block img{
+    width: 60%;
+    height: 55%;
+    padding: 5%;
+}
+
+.art{
+    background-color: #8073c550;
+    display: block !important;
+    text-align: center;
 }

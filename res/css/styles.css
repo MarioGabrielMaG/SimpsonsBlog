@@ -1,10 +1,10 @@
 @font-face {
-    font-family: simpsonsfont;
-    src: url(res/font/SimpsonfontDEMO.otf) format ("opentype");
+    font-family: 'akbar';
+    src: url('./res/font/akbar.ttf') format ('truetype');
 }
 
 * {
-    font-family: simpsonsfont, 'Courier New', Courier, monospace;
+    font-family: 'akbar';
 }
 
 body{
@@ -26,6 +26,11 @@ nav ul li{
     padding-right: 50px;
     padding-left: 50px;
     font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+article{
+    padding-bottom: 7%;
 }
 
 footer{
@@ -45,6 +50,7 @@ footer ul li{
     padding-right: 50px;
     padding-left: 50px;
     font-weight: bold;
+    transition-duration: 0.5s;
 }
 
 footer ul li:hover, nav ul li:hover{
