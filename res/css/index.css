@@ -23,6 +23,10 @@ aside img{
     padding: 5%;
 }
 
+.block:hover{
+    box-shadow: none;
+}
+
 .art{
     background-color: #8073c550;
     display: block !important;
