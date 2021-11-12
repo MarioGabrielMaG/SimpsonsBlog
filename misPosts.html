@@ -1,0 +1,69 @@
+<!DOCTYPE html> <!-- Determina el tipo de leguaje de etiquetas a utilizar -->
+<html lang="en"> <!-- Etiqueta de apertura de archivo HTML, lo iniciammos con lang="en"-->
+<!-- Cabecera de la página, contiene datos sobre la página para que esta funcione correctamente, esta no se visualizara-->
+<head>
+    <meta charset="UTF-8"> <!-- especificamos el tipo de codificación a usar en toda la página -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- especificamos los navegadores compatibles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- indicamos que la página tendra la resolución de la pantalla en la que se esta visualizando en el momento -->
+    <title>El Blog de Lisa Simpson</title> <!-- Titulo de la página (se visualizara en la pestaña del navegador) -->
+    <link rel="stylesheet" type="text/css" href="./res/css/index.css"><!-- Cargamos la hoja de estilos especifica para index.html-->
+    <link rel="stylesheet" type="text/css" href="./res/css/resposive.css"><!-- Cargamos la Hoja de estilos especifica para el diseño responsive-->
+    <link rel="stylesheet" type="text/css" href="./res/css/styles.css"> <!-- Cargamos la hoja de estilos generica para la página -->
+    <link rel="shortcut icon" type="image/icon" href="res/img/ico/homer-simpson.ico">
+</head>
+<!-- Contenido de la página -->
+    <body>
+        <div class="header">
+            <!-- Cabecera visible de la página, contiene información relevanvte sobre la página -->
+            <header>
+                <img class="logo" src="./res/img/png/The_logo_simpsons_yellow.png">
+            </header>
+            <!-- Menú de navegación de la página -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="misPosts.html">Mis Posts</a></li>
+                    <li><a href="nuevoPost.html">Nuevo Post</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Barra lateral -->
+        <aside>
+            <a href="http://www.homerswebpage.com/"><img src="./res/img/Gif/hommer banner.gif"></a>
+        </aside>
+        <!-- Contenido principal -->
+        <article>
+            <div class="content">
+                <!-- Seccion dentro del contenido principal -->
+                <section>
+                    <ol id="li">
+                        <li>Una ciudad peculiar</li>
+                        <li>El mono listo</li>
+                        <li>Una ciudad muy.... ¿Segura? </li>
+                        <li>All Cats Are Welcome</li>
+                        <li>El bar de Moe</li>
+                        <li>Springfield ciudad de vacaciones</li>
+                        <li>Simplemente Apu</li>
+                        <li>Kang y Kodos los extraterrestres</li>
+                        <li>La familia Wiggum es un tanto especial...</li>
+                        <li>La historia de Edna Krabappel o Carapapel para los amigos</li>
+                        <li>Halloween en Springfield si que es terrorifico</li>
+                        <li>Rasca y pica se quieren a muerte</li>
+                    </ol>
+                </section>
+            </div>
+            
+        </article>
+        <!-- Pie de página -->
+        <footer>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="misPosts.html">Mis Posts</a></li>
+                <li><a href="nuevoPost.html">Nuevo Post</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            <p>© Simpsons Blog | 2021</p>
+        </footer>
+    </body>
+</html>

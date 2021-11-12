@@ -2,3 +2,8 @@ section {
     border-style:groove;
     text-align: center;
 }
+
+.submit:hover{
+    color: blueviolet;
+    transition: 1s;
+}
