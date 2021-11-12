@@ -14,4 +14,14 @@
     footer ul{
         display: none;
     }
+
+    i {
+        float: left;
+        margin-left: 90%;
+        margin-top: -8.5%;
+        font-size: 150%;
+    }
+    i:hover {
+        
+    }
 }
