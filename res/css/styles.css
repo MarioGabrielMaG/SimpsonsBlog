@@ -1,12 +1,3 @@
-@font-face {
-    font-family: 'akbar';
-    src: url('./res/font/akbar.ttf') format ('truetype');
-}
-
-* {
-    font-family: 'akbar';
-}
-
 body{
     background-color: #99d1ea;
 }
