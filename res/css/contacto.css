@@ -6,23 +6,5 @@ section {
 .submit:hover{
     color: blueviolet;
     transition: 1s;
-    position: relative;
-    
-    animation-name: vacile;
-    animation-duration: 1s;
-    
-    transition: 1s;
-}
-
-@keyframes vacile{
-0%{
-    transform: translateX(-50);
-}
-50%{
-    transform: translateX(0);
-}
-100%{
-    transform: translateX(50);
-}
 }
 
