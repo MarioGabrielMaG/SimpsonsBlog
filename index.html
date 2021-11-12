@@ -1,38 +1,39 @@
-<!DOCTYPE html> <!-- Determina el tipo de leguaje de etiquetas a utilizar -->
-<html lang="en"> <!-- Etiqueta de apertura de archivo HTML, lo iniciammos con lang="en"-->
+<!DOCTYPE html> <!-- Determina el tipo de lenguaje de etiquetas a utilizar -->
+<html lang="en"> <!-- Etiqueta de apertura de archivo HTML, lo iniciamos con lang="en"-->
 <!-- Cabecera de la página, contiene datos sobre la página para que esta funcione correctamente, esta no se visualizara-->
-<head>
-    <meta charset="UTF-8"> <!-- especificamos el tipo de codificación a usar en toda la página -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- especificamos los navegadores compatibles -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- indicamos que la página tendra la resolución de la pantalla en la que se esta visualizando en el momento -->
-    <title>El Blog de Lisa Simpson</title> <!-- Titulo de la página (se visualizara en la pestaña del navegador) -->
-    <link rel="stylesheet" type="text/css" href="./res/css/index.css"><!-- Cargamos la hoja de estilos especifica para index.html-->
-    <link rel="stylesheet" type="text/css" href="./res/css/resposive.css"><!-- Cargamos la Hoja de estilos especifica para el diseño responsive-->
-    <link rel="stylesheet" type="text/css" href="./res/css/styles.css"> <!-- Cargamos la hoja de estilos generica para la página -->
-    <link rel="shortcut icon" type="image/icon" href="res/img/ico/homer-simpson.ico"> <!-- Cargamos el icono de la página -->
-    <link href="./res/fontawesome/css/all.css" rel="stylesheet">
-</head>
+    <head>
+        <meta charset="UTF-8"> <!-- especificamos el tipo de codificación a usar en toda la página -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- especificamos los navegadores compatibles -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- indicamos que la página tendra la resolución de la pantalla en la que se está visualizando en el momento -->
+        <meta name="author" content="Mario Gabriel Núñez Alcázar de Velasco"> <!-- Nombre del autor de la página -->
+        <title>El Blog de Lisa Simpson</title> <!-- Título de la página (se visualizara en la pestaña del navegador) -->
+        <link rel="stylesheet" type="text/css" href="./res/css/index.css"><!-- Cargamos la hoja de estilos especifica para index.html-->
+        <link rel="stylesheet" type="text/css" href="./res/css/resposive.css"><!-- Cargamos la Hoja de estilos especifica para el diseño responsive-->
+        <link rel="stylesheet" type="text/css" href="./res/css/styles.css"> <!-- Cargamos la hoja de estilos generica para la página -->
+        <link rel="shortcut icon" type="image/icon" href="res/img/ico/homer-simpson.ico"> <!-- Cargamos el icono de la página -->
+        <link href="./res/fontawesome/css/all.css" rel="stylesheet">
+    </head>
 <!-- Contenido de la página -->
     <body>
         <div class="header">
             <!-- Cabecera visible de la página, contiene información relevanvte sobre la página -->
             <header>
+                <!-- logotipo -->
                 <img class="logo" src="./res/img/png/The_logo_simpsons_yellow.png">
             </header>
             <!-- Menú de navegación de la página -->
             <nav>
                 <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="misPosts.html">Mis Posts</a></li>
-                    <li><a href="nuevoPost.html">Nuevo Post</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="index.html">Inicio</a></li> <!-- link que lleva al inicio-->
+                    <li><a href="misPosts.html">Mis Posts</a></li> <!-- link que lleva a mis posts-->
+                    <li><a href="nuevoPost.html">Nuevo Post</a></li> <!-- link que lleva a nuevo post-->
+                    <li><a href="contacto.html">Contacto</a></li> <!-- link que lleva a contacto-->
                 </ul>
             </nav>
-            <input type="checkbox" id="sel">
-            <i class="fas fa-bars"></i>
         </div>
         <!-- Barra lateral -->
         <aside>
+            <!-- banner que redirecciona a la página del señor X (www.homerswebpage.com)-->
             <a href="http://www.homerswebpage.com/"><img src="./res/img/Gif/hommer banner.gif"></a>
         </aside>
         <!-- Contenido principal -->
@@ -40,13 +41,16 @@
             <div class="content">
                 <!-- Seccion dentro del contenido principal -->
                 <section>
+                    <!-- primer bloque de artículos -->
                     <div class="block">
+                        <!-- artículo 1 -->
                         <a href="#">
                             <div class="art">
                                 <img src="./res/img/png/SimpsonsLander.png">
                                 <p>Una ciudad peculiar</p>
                             </div>
                         </a>
+                        <!-- artículo dos -->
                         <a href="#">
                             <div class="art">
                                 <img src="./res/img/png/el mono listo.png">
@@ -54,13 +58,16 @@
                             </div>
                         </a>
                     </div>
+                    <!-- segundo bloque de artículos -->
                     <div class="block">
+                        <!-- artículo tres-->
                         <a href="#">
                             <div class="art">
                                 <img src="./res/img/png/seguro.png">
                                 <p>una ciudad muy.... ¿Segura?</p>
                             </div>
                         </a>
+                        <!-- artículo cuatro -->
                         <a href="#">
                             <div class="art">
                                 <img src="./res/img/png/cat.png">
@@ -75,10 +82,10 @@
         <!-- Pie de página -->
         <footer>
             <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="misPosts.html">Mis Posts</a></li>
-                <li><a href="nuevoPost.html">Nuevo Post</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="index.html">Inicio</a></li> <!-- link que lleva al inicio-->
+                <li><a href="misPosts.html">Mis Posts</a></li> <!-- link que lleva a mis posts-->
+                <li><a href="nuevoPost.html">Nuevo Post</a></li> <!-- link que lleva a nuevo post-->
+                <li><a href="contacto.html">Contacto</a></li> <!-- link que lleva a contacto-->
             </ul>
             <p>© Simpsons Blog | 2021</p>
         </footer>

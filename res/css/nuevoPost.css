@@ -1,0 +1,12 @@
+/*aplicamos el estilo a los text area de la página*/
+textarea {
+    width: 100%; /* hacemos que el ancho del contenido sea un 100% con respecto al contenedor*/
+    height: 300px; /* hacemos que el alto del contenido sea de 300px*/
+}
+
+/* aplicamos estilo al elemento con id "Submit" */
+#submt {
+    margin-left: 39%;/* aplicamos un margen desde la izquierda de un 39% con respecto al contenedor*/
+    width: 25%;/* hacemos que el ancho del contenido sea un 25% con respecto al contenedor*/
+    font-size: 200%; /* hacemos que el tamaño del texto sea un 200% más grande*/
+}

@@ -1,101 +1,111 @@
+/* Estilo aplicado sobre el body */
 body{
-    background-color: #99d1ea;
+    background-color: #99d1ea; /* aplicamos color al fondo */
 }
 
+/* Estilo aplicado sobre el Nav */
 nav{
-    float: left;
-    margin-left: 30%;
-    margin-top: -6.5%;
+    float: left; /* hacemos que el nav se hubique a la izquierda por defecto*/
+    margin-left: 30%; /* aplicamos un margen desde la izquierda de un 30% con respecto a la pamtalla*/
+    margin-top: -6.5%; /* aplicamos un margen desde arriba de un -6.5% con respecto a la pamtalla*/
 }
 
+/* Estilo aplicado sobre las li de la lista del nav */
 nav ul li{
-    list-style: none;
-    display: inline-flex;
-    font-size: 150%;
-    border: solid;
-    border-radius: 2px;
-    padding-right: 50px;
-    padding-left: 50px;
-    font-weight: bold;
-    transition-duration: 0.5s;
+    list-style: none; /* quitamos el estilo por defecto a la lista */
+    display: inline-flex; /* hacemos que el contenido de la lista se despliegue de forma horizontal*/
+    font-size: 150%; /* hacemos que el tamaño del texto sea un 150% más grande*/
+    border: solid; /* añadimos un borde sólido */
+    border-radius: 2px; /* añadimos un redondeo de 2 pixeles*/
+    padding-right: 50px; /* añadimos un padding desde la derecha de 50 pixeles*/
+    padding-left: 50px; /* añadimos un padding desde la izquierda de 50 pixeles*/
+    font-weight: bold; /* hacemos que el texto se muestre con negrita */
+    transition-duration: 0.5s; /* hacemos que la transicion al estado del estilo aplicado anteriormente dure medio segundo */
 }
 
-i{
-    
-}
-
+/* Estilo aplicado sobre las imágenes y el iframe del aside */
 aside img, aside iframe{
-    float: right;
-    width: 20%;
-    margin-top: 2%;
-    margin-right: 3%;
+    float: right; /* hacemos que el contenido del aside se hubique a la derecha por defecto*/
+    width: 20%; /* hacemos que el ancho del contenido sea un 20% con respecto a la pantalla*/
+    margin-top: 2%; /* aplicamos un margen desde arriba de un 2% con respecto a la pamtalla*/
+    margin-right: 3%; /* aplicamos un margen desde la derecha de un 3% con respecto a la pamtalla*/
 }
 
+/* Estilo aplicado sobre el iframe del aside */
 aside iframe{
-    width: 12%;
-    height: 400px;
+    width: 12%; /* hacemos que el ancho del contenido sea un 12% con respecto a la pantalla*/
+    height: 400px; /* hacemos que la altura del contenido sea de 400px */
 }
 
+/* estilo aplicado sobre el article */
 article{
-    padding-bottom: 7%;
+    padding-bottom: 7%; /* añadimos un padding desde abajo de 7% con respecto al tamaño de pantalla*/
 }
 
+/* estilo aplicado sobre el footer */
 footer{
-    background-color: #5399B8;
-    position: fixed;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
-    justify-items: center;
+    background-color: #5399B8; /* añadimos color al fondo */
+    position: fixed; /* le indicamos que se situe siempre abajo en la pantalla */
+    bottom: 0%; /* le indicamos que guarde un margen con respecto abajo de la pantalla de 0% */
+    left: 0%; /* le indicamos que guarde un margen con respecto a la izquierda de la pantalla de 0% */
+    right: 0%; /* le indicamos que guarde un margen con respecto a la derecha de la pantalla de 0% */
 }
 
+/* estilo aplicado sobre el contenido de la lista del footer */
 footer ul li{
-    list-style: none;
-    display: inline-flex;
-    border: solid;
-    border-radius: 2px;
-    padding-right: 50px;
-    padding-left: 50px;
-    font-weight: bold;
-    transition-duration: 0.5s;
+    list-style: none; /* quitamos el estilo por defecto a la lista */
+    display: inline-flex; /* hacemos que el contenido de la lista se despliegue de forma horizontal*/
+    border: solid; /* añadimos un borde sólido */
+    border-radius: 2px; /* añadimos un redondeo de 2 pixeles*/
+    padding-right: 50px; /* añadimos un padding desde la derecha de 50 pixeles*/
+    padding-left: 50px; /* añadimos un padding desde la izquierda de 50 pixeles*/
+    font-weight: bold; /* hacemos que el texto se muestre con negrita */
+    transition-duration: 0.5s; /* hacemos que la transicion al estado del estilo aplicado anteriormente dure medio segundo */
 }
-
+/* Estilo aplicado sobre el contenido de la lista del footer */
+/* y sobre el contenido de la lista cuando pasa el ratón por encima */
 footer ul li:hover, nav ul li:hover{
-    background-color: #8073c5;
-    transition-duration: 0.5s;
+    background-color: #8073c5; /* añadimos color al fondo */
+    transition-duration: 0.5s; /* hacemos que la transicion al estado del estilo aplicado anteriormente dure medio segundo */
 }
 
+/* estilo aplicado sobre la lista del footer */
 footer ul{
-    padding-right: 5%;
+    padding-right: 50px; /* añadimos un padding desde la derecha de 50% ocn respecto al tamaño de la pantalla */
 }
 
+/* estilo aplicado sobre el parrafo del footer */
 footer p{
-    text-align: center;
+    text-align: center; /* alineamos el texto al centro */
 }
 
+/* estilo aplicado cuando los links están activos, visitados y cuando existen sin más (a:link) */
 a:link, a:visited, a:active {
-    color: black;
-    text-decoration: none;
+    color: black; /* cambiamos el color del texto */
+    text-decoration: none; /* quitamos toda la decoracion del texto que viene por defecto*/
 }
 
+/* estilo aplicado sobre el logotipo */
 .logo{
-    width: 15%;
-    height: 15%;
-    margin-left: 5%;
+    width: 15%; /* hacemos que el ancho del contenido sea un 15% con respecto a la pantalla*/
+    height: 15%; /* hacemos que el alto del contenido sea un 15% con respecto a la pantalla*/
+    margin-left: 5%; /* aplicamos un margen desde la izquierda de un 5% con respecto a la pamtalla*/
 }
 
+/* estilo aplicado sobre el contenido del div que engloba Nav y Header */
 .header{
-    background-color: #4EB4E1;
-    position: sticky;
-    top: 0px;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    margin-top: -1%;
-    z-index: 1;
+    background-color: #4EB4E1; /* cambiamos el color del fondo */
+    position: sticky; /* hacemos que el contenido esté fijo en la parte de arriba de la pantalla a pesar del scroll*/
+    top: 0px; /* le indicamos que guarde un margen con respecto a la parte superior de la pantalla de 0% */
+    padding-top: 2%; /* añadimos un padding desde la derecha de 2% con respecto al tamaño de la pantalla */
+    padding-bottom: 2%; /* añadimos un padding desde la parte inferior de un 2% con respecto al tamaño de la pantalla*/
+    margin-top: -1%; /* aplicamos un margen desde arriba de un -1% con respecto a la pamtalla*/
+    z-index: 1; /* cambiamos la profundidad, indicamos que el elemento se muestre encima de los demas */
 }
 
+/* estilo aplicado sobre el contenido del div con la clase content */
 .content{
-    margin-top: 2%;
-    margin-left: 10%;
-    margin-right: 25%;
+    margin-top: 2%; /* aplicamos un margen desde arriba de un 2% con respecto a la pamtalla*/
+    margin-left: 10%; /* aplicamos un margen desde la izquierda de un 10% con respecto a la pamtalla*/
+    margin-right: 25%; /* aplicamos un margen desde la derecha de un 25% con respecto a la pamtalla*/
 }
