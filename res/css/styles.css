@@ -20,11 +20,16 @@ nav ul li{
     transition-duration: 0.5s;
 }
 
-aside img{
+aside img, aside iframe{
     float: right;
     width: 20%;
     margin-top: 2%;
     margin-right: 3%;
+}
+
+aside iframe{
+    width: 12%;
+    height: 400px;
 }
 
 article{
